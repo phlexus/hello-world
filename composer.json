@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phlexus/core": "dev-master",
+        "phlexus/phlexus-hello-world": "dev-master"
+    }
+}
