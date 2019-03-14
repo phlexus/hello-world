@@ -1,0 +1,13 @@
+version: '3.5'
+
+networks:
+  default:
+    name: phlexus-hello-world
+
+services:
+  php:
+    container_name: phlexus-hello-world-php
+    image: phlexus:fpm-alpine-3.9
+    volumes:
+      - .:/srv:rw
+    working_dir: /srv
