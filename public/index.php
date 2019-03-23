@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 
-require_once 'index.php';
+$loader = require_once __DIR__ . '/../vendor/autoload.php';
 
 use Phlexus\Application;
 
-echo (new Application())->run();
+echo (new Application($loader->getPrefixesPsr4()))->run();
