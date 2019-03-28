@@ -5,4 +5,4 @@ $customModules = require_once __DIR__ . '/../config/modules.php';
 
 use Phlexus\Application;
 
-echo (new Application($loader->getPrefixesPsr4(), $customModules))->run();
+echo (new Application('default', [], $loader->getPrefixesPsr4(), $customModules))->run();
