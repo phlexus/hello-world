@@ -1,3 +1,3 @@
 # Hello world
 
-Basic showcase of CMS.
+Basic showcase of Phlexus CMS module.
